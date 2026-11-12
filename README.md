@@ -16,12 +16,13 @@ Na Versiani Swim, um e-commerce de moda praia e fitness, construí com o Claude 
 - **Envio automático de NF-e de devolução**, sem duplicar nota, numa operação que chegou a mais de 1.000 solicitações de troca e devolução por mês
 - **Painel diário de métricas** com cerca de 20 indicadores de 8 sistemas, preenchido sozinho às 7h
 
-O código é da empresa e não fica público. Os estudos de caso abaixo explicam o problema, a arquitetura e as decisões de dois desses projetos.
+O código é da empresa e não fica público. Os estudos de caso abaixo explicam o problema, a arquitetura e as decisões de três desses projetos.
 
 ## Estudos de caso
 
 - **[Grade Perpétua: de polling para webhook](https://github.com/cesarcasagrand/estudos-de-caso/blob/main/grade-perpetua.md)**: dashboard de ruptura de estoque em Cloudflare Workers; o teste de 898 chamadas que estourou a cota do Bling, a troca para webhook e os incidentes de cota.
 - **[NF-e de devolução: envio automático ao armazém](https://github.com/cesarcasagrand/estudos-de-caso/blob/main/nfe-devolucao.md)**: a migração Make → GitHub Actions → Agendador do Windows, como evitar enviar a mesma nota duas vezes e os incidentes com o token de uso único do Bling.
+- **[Stock Guard: conferência de estoque entre o ERP e o armazém](https://github.com/cesarcasagrand/estudos-de-caso/blob/main/stock-guard.md)**: reserva automática a cada 15 min quando o ERP mostra mais estoque que o armazém, a fórmula que se recalcula a cada ciclo e o que mudou depois que a IA editou código em produção sem aprovação.
 
 ## Como trabalho com IA
 
