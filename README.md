@@ -20,7 +20,7 @@ O código é da empresa e não fica público. Os estudos de caso abaixo explicam
 
 ## Estudos de caso
 
-_Em breve._
+- **[Grade Perpétua: de polling para webhook](https://github.com/cesarcasagrand/estudos-de-caso/blob/main/grade-perpetua.md)**: dashboard de ruptura de estoque em Cloudflare Workers; o teste de 898 chamadas que estourou a cota do Bling, a troca para webhook e os incidentes de cota.
 
 ## Como trabalho com IA
 
