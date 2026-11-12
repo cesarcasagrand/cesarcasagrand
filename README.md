@@ -13,7 +13,7 @@ Na Versiani Swim, um e-commerce de moda praia e fitness, construí com o Claude 
 
 - **Conferência de estoque** entre ERP e armazém a cada 15 min, reservando a diferença para não vender o que não existe
 - **Dashboard de ruptura de estoque** alimentado por webhook, depois de medir que o polling gastaria 898 chamadas de API por dia de dados; atualização de até 24h para cerca de 15 min
-- **Envio automático de NF-e de devolução**, sem duplicar nota, numa operação que chegou a mais de 1.000 trocas e devoluções por mês
+- **Envio automático de NF-e de devolução**, sem duplicar nota, numa operação que chegou a mais de 1.000 solicitações de troca e devolução por mês
 - **Painel diário de métricas** com cerca de 20 indicadores de 8 sistemas, preenchido sozinho às 7h
 
 O código é da empresa e não fica público. Os estudos de caso abaixo explicam o problema, a arquitetura e as decisões de dois desses projetos.
